@@ -14,7 +14,8 @@
 
 	<link rel="stylesheet" href="css/normalize.min.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>	
+	<script src="js/vendor/jquery.hashchange.min.js"></script>
 	<script src="js/vendor/jquery.easytabs.min.js"></script>
 
 	<script src="js/main.js"></script>
@@ -26,7 +27,7 @@
 				(i[r].q = i[r].q || []).push(arguments)
 			}, i[r].l = 1 * new Date(); a = s.createElement(o),
 			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+		})(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
 
 		ga('create', 'UA-44775720-1', 'richardhollon.com');
 		ga('send', 'pageview');
@@ -81,10 +82,10 @@
                                 <h4>
                                     Windows Developer
                                 </h4>
-								<p>I (Richard Hollon) am a 35 year old software engineer headquartered in downtown Austin, Texas USA.</p>
-								<p>I enjoy programming in C#, ASP.NET, SQL, HTML5, jQuery, MVC and PowerShell. I also advocate agile practices and continuous integration. I am an avid traveller, having most recently been to Hong Kong & Macau (2011), Manila Phillippines & southern Japan (2012) and Philadelphia, Pennsylvania (2013). I am long overdue for my next adventure.</p>
-								<p>In my free time I enjoy: playing my Martin guitar (a lefty), cooking many different things, coldbrewing coffee, bicycling Austin's trails and boardwalk, fresh water fishing, swimming, dove hunting, two steppin' across Texas, editing wacky vacation videos and so much more.</p>
-								<p>This website was re-written in Javascript (Oct 2015) during some rare free time.</p>								
+								<p>I (Richard Hollon) am a 35 year old software engineer based in downtown Austin, Texas USA.</p>
+								<p>I enjoy programming in C#, PowerShell, JavaScript, ASP.NET MVC, HTML5, jQuery and SQL. I also advocate agile practices and continuous integration. I am an avid traveller, having most recently been to Hong Kong & Macau (2011), Manila Phillippines & southern Japan (2012) and Philadelphia, Pennsylvania (2013). I am long overdue for my next adventure.</p>
+								<p>In my free time I enjoy: playing my Martin guitar (a lefty), cooking many different recipes, cold-brewing coffee, bicycling Austin's trails and boardwalk, swimming, freshwater fishing, dove hunting, two-steppin' across Texas, editing vacation videos and so much more.</p>
+								<p>This website was re-written in JavaScript during some rare free time (Oct 2015).</p>								
                             </div>
                         </div>
                         <div class="g1">
@@ -97,11 +98,14 @@
                                         <a href="#portfolio">My Portfolio</a>
                                     </li>
                                     <li>
-                                        <a href="#contact">Get in touch</a>
+                                        <a href="#contact">Hire me for your next project</a>
                                     </li>
+<!--                                     <li>
+										<a href="content/RichardHollonResume2015.pdf" target="_blank">Download my Resume</a>
+                                    </li> 									
                                     <li>
-                                        <a href="#features">Features</a>
-                                    </li>
+										<a href="mailto:richardsmailbox@gmail.com">Email me</a>
+                                    </li>-->
                                 </ul>
                             </div>
                         </div>
@@ -139,7 +143,7 @@
                 </div>
               <!-- End About Tab Data -->
               <!-- Resume Tab Data -->
-                <div id="resume">
+                <div id="resume" a="resume">
                     <section class="clearfix">
                         <div class="g2">
                             <h3>
@@ -322,6 +326,11 @@
                 <div id="portfolio">
                     <section class="clearfix">
                         <div class="g1">
+                            <h4><a href="https://github.com/Devtr0n/RichardHollonJS">RichardHollonJS</a></h4>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=Devtr0n&repo=StringSortingExample&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+                            <p>My current website's source code, optimized using jQuery and JS libraries.</p>
+                        </div>					
+                        <div class="g1">
                             <h4><a href="https://github.com/Devtr0n/RichardHollonMVC">RichardHollonMVC</a></h4>
                             <iframe src="https://ghbtns.com/github-btn.html?user=Devtr0n&repo=RichardHollonMVC&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
                             <p>My website written in ASP.NET MVC5.</p>
@@ -330,13 +339,14 @@
                             <h4><a href="https://github.com/Devtr0n/Powershell-NightlySQLReport">Powershell Nightly SQL Report</a></h4>
                             <iframe src="https://ghbtns.com/github-btn.html?user=Devtr0n&repo=Powershell-NightlySQLReport&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
                             <p>A script to produce a nightly report for a scheduled Windows SQL job.</p>
-                        </div>						
+                        </div>
+						<div class="break"></div>
                         <div class="g1">
                             <h4><a href="https://github.com/Devtr0n/jQuery-helpful-examples">jQuery Helpful Examples</a></h4>
                             <iframe src="https://ghbtns.com/github-btn.html?user=Devtr0n&repo=jQuery-helpful-examples&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
                             <p>Some powerful jQuery examples from the real world.</p>
                         </div>
-						<div class="break"></div>
+						
                         <div class="g1">
                             <h4><a href="https://github.com/Devtr0n/MyWebsite-WebForms-Legacy">My Web Forms website</a></h4>
                             <iframe src="https://ghbtns.com/github-btn.html?user=Devtr0n&repo=MyWebsite-WebForms-Legacy&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
