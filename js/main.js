@@ -2,7 +2,7 @@ $(document).ready( function() {
 
 	/////////////////////////// Background Image Slideshow ////////////////////////////////////////////////
 	var images = ['seacliff.jpg', 'japan.jpg', 'gunkanjima.jpg', 'hashima.jpg'];
-	$('body').css({'background-image': 'url(../src/images/' + images[Math.floor(Math.random() * images.length)] + ')'});	
+	$('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});	
 
 	//http://www.techerator.com/2010/11/how-to-make-a-css-background-slideshow-with-jquery/ 
 	// var currImg = 1;
