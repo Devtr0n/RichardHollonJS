@@ -1,7 +1,7 @@
 $(document).ready( function() {
 
 	/////////////////////////// Background Image Slideshow ////////////////////////////////////////////////
-	var images = ['seacliff.jpg', 'japan.jpg', 'gunkanjima.jpg', 'hashima.jpg'];
+	var images = ['seacliff.jpg', 'japan.jpg', 'gunkanjima.jpg', 'hashima.jpg', 'new_years.jpg', 'red_square.jpg', 'cathedral.jpg', 'poseidon.jpg', 'acropolis.jpg', 'sounion.jpg', 'sounion2.jpg', 'watermelon.jpg', 'ksyusha.jpg'];
 	$('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});	
 
 	//http://www.techerator.com/2010/11/how-to-make-a-css-background-slideshow-with-jquery/ 
